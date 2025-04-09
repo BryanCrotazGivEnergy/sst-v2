@@ -15,7 +15,8 @@
     "version": "./.changeset/version",
     "release": "./.changeset/release",
     "release-snapshot": "./.changeset/snapshot",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "postinstall": "pnpm run build"
   },
   "repository": {
     "type": "git",
